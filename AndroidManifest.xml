@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DesignUI">
+        <activity
+            android:name=".MyInvoice"
+            android:exported="false" />
+        <activity
+            android:name=".UserDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Guest_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Home"
+            android:exported="false" />
+        <activity
+            android:name=".Ratans_Hotel"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Royals_Hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Shawn_Hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Karls_Hotel"
+            android:exported="false" />
+        <activity
+            android:name=".Hotel_paradise"
+            android:exported="false" />
+        <activity
+            android:name=".Book_Room"
+            android:exported="false" />
+        <activity
+            android:name=".Guest_Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
