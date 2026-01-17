@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF6FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_gravity="center" />
+
+        <!-- Stats Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginTop="20dp">
+
+            <!-- Users -->
+            <Button
+                android:id="@+id/Users_stats"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Users"
+                android:textSize="16sp" />
+
+            <!-- Bookings -->
+            <Button
+                android:id="@+id/Bookings_stats"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Users"
+                android:textSize="16sp"/>
+
+            <!-- Revenue -->
+            <Button
+                android:id="@+id/Revenue_stats"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Users"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/Rooms_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Rooms"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/Bookings_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Bookings"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/Payments_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Payments"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/Logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

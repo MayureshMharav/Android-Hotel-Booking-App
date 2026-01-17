@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/rounded_card_blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Double-bed"
+        android:textColor="@color/c5"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹3000/Night"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:src="@drawable/double_bed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="● Services Included"
+            android:layout_gravity="start"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:paddingHorizontal="50dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/wifi" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ac" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⬤ Note:"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Only for four people."
+            android:textColor="@color/grey"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:text="No external drinks and food allowed."/>
+
+        <Button
+            android:id="@+id/book_btn_double"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Book Room"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:elevation="5dp"
+            android:shadowColor="@color/black"
+            android:backgroundTint="@color/c5"/>
+
+    </LinearLayout>
+</LinearLayout>
